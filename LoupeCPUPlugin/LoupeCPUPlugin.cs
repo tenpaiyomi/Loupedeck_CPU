@@ -1,10 +1,10 @@
-namespace Loupedeck.VoCPUPlugin
+namespace Loupedeck.LoupeCPUPlugin
 {
     using System;
 
     // This class contains the plugin-level logic of the Loupedeck plugin.
 
-    public class VoCPUPlugin : Plugin
+    public class LoupeCPUPlugin : Plugin
     {
         // Gets a value indicating whether this is an Universal plugin or an Application plugin.
         public override Boolean UsesApplicationApiOnly => true;

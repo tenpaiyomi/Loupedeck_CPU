@@ -1,12 +1,12 @@
-namespace Loupedeck.VoCPUPlugin
+namespace Loupedeck.LoupeCPUPlugin
 {
     using System;
 
     // This class can be used to connect the Loupedeck plugin to an application.
 
-    public class VoCPUApplication : ClientApplication
+    public class LoupeCPUApplication : ClientApplication
     {
-        public VoCPUApplication()
+        public LoupeCPUApplication()
         {
         }
 

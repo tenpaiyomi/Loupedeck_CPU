@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Loupedeck.VoCPUPlugin</RootNamespace>
-    <AssemblyName>VoCPUPlugin</AssemblyName>
+    <AssemblyName>LoupeCPUPlugin</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -25,6 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <OutputPath>C:\Users\Eric Musgrove\AppData\Local\Loupedeck\Plugins\LoupeCPU\win\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -54,8 +55,8 @@
   <ItemGroup>
     <Compile Include="Actions\DisplayCPU.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VoCPUApplication.cs" />
-    <Compile Include="VoCPUPlugin.cs" />
+    <Compile Include="LoupeCPUApplication.cs" />
+    <Compile Include="LoupeCPUPlugin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="metadata\LoupedeckPackage.yaml" />

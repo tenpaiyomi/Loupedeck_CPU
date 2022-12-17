@@ -1,9 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30128.74
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoCPUPlugin", "VoCPUPlugin\VoCPUPlugin.csproj", "{03022F04-C091-4614-9CBC-7579C1FCA3EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoupeCPUPlugin", "LoupeCPUPlugin\LoupeCPUPlugin.csproj", "{03022F04-C091-4614-9CBC-7579C1FCA3EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
